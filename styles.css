@@ -1,0 +1,165 @@
+body {
+    position: relative ;
+    box-sizing: border-box;
+    font-size: 1px;
+  }
+
+  nav {
+    position: fixed ;
+    top: 25px ;
+    width: 20%;
+  }
+  
+  nav a , nav header{
+    display: flex ;
+    flex-direction: column ;
+    border-bottom: 2px solid #b2b2b2 ;
+    margin-bottom: 2rem; 
+    text-decoration: none;
+    font-size: 1.3rem ; 
+  }
+
+
+  nav a:link , nav a:visited {
+    color: black ;
+  }
+  nav a:hover {
+    color: gold ; 
+  }
+  nav header {
+    margin-bottom: 2rem ;
+    font-size: 1.4rem ;
+    font-weight: bold;
+  }
+
+  #main-doc {
+    position: absolute;
+    left: 20% ;
+    width: 79% ;
+    padding: 10px; 
+    border-left: 3px solid #b2b2b2 ;
+    padding-bottom: 2rem ; 
+
+  }
+
+  #main-doc section {
+    font-size: 1.2rem;
+  }
+  .main-section header {
+    font-size: 1.5rem ;
+    font-weight: 300;
+    margin-top: 20px; 
+}
+
+@media only screen and (max-width: 600px) {
+  nav header {
+    background-color: aqua;
+    font-size: 2.9vw ;
+    font-weight: 950 ;
+
+  }
+  #navbar a {
+    font-size: 2.8vw;
+    font-weight: 700 ;
+  }
+
+  .main-section header {
+    font-weight: 800; 
+    font-size: 4.5vw ;
+    /* background-color: #ddd666 ; */
+    
+  }
+  #main-doc section {
+    font-size: 3.5vw;
+  }
+
+  
+}
+
+@media only screen and (min-width: 600px) {
+  nav header {
+    font-size: 2.9vw ;
+    font-weight: 800 ;
+    background-color: blue ;
+  }
+  #navbar a {
+    font-size: 2.7vw; 
+    font-weight: 550 ;
+  }
+  .main-section header{
+    font-weight: 250;
+    font-size: 3.7vw; 
+  }
+  #main-doc section {
+    font-size: 3vw;
+  }
+}  
+
+@media only screen and (min-width: 768px) {
+  nav header {
+    font-size: 2.6vw ;
+    font-weight: 650 ;
+    background-color: rgb(128, 0, 85) ;
+  }
+
+  #navbar a {
+    font-size: 2.2vw; 
+    font-weight: 550 ;
+  }
+
+  .main-section header {
+    font-weight: 550;
+    font-size: 1.5rem; 
+  }
+
+  #main-doc section {
+    font-size: 1.3rem;
+  }
+} 
+
+@media only screen and (min-width: 992px) {
+  nav header {
+    font-size: 2.3vw ;
+    font-weight: bold;
+    background-color: #df591e ;
+  }
+  #navbar a {
+    font-size: 1.2rem ; 
+  }
+
+  #main-doc section {
+    font-size: 1.9vw ;
+
+  }
+
+  .main-section header {
+    font-size: 2.1vw ;
+    font-weight: 800;
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  nav header {
+    font-size: 1.3rem ;
+    font-weight: bold;
+    background-color: burlywood ;
+
+  }
+
+  #navbar a {
+    font-size: 1.1rem
+  }
+
+  #main-doc section {
+    /* background-color: yellow ;  */
+    font-size: 1.4vw
+
+  }
+
+  .main-section header {
+    font-size: 1.7vw ;
+    font-weight: 500;
+}
+}
